@@ -3,8 +3,8 @@ const cleanSet = (set, startString) => {
     return '';
   }
   return [...set]
-    .filter(item => (item !== undefined ? item.startsWith(startString) : ''))
-    .map(item => (item !== undefined ? item.slice(startString.length) : ''))
+    .filter((item) => (item !== undefined ? item.startsWith(startString) : ''))
+    .map((item) => (item !== undefined ? item.slice(startString.length) : ''))
     .join('-');
 };
 
