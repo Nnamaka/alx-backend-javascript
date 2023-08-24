@@ -6,7 +6,6 @@ const app = express();
 const port = 1245;
 
 function countStudents(fileName) {
-
   const students = {};
   const fields = {};
   let length = 0;
@@ -16,10 +15,9 @@ function countStudents(fileName) {
       if (err) {
         reject(err);
       } else {
-
         let output = '';
         const lines = data.toString().split('\n');
-        
+
         for (let i = 0; i < lines.length; i += 1) {
           if (lines[i]) {
             length += 1;
