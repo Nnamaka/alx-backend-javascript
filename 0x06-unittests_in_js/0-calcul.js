@@ -1,6 +1,6 @@
-function calculateNumber(num1, num1) {
-    const num1 = Math.round(num1);
-    const num2 = Math.round(num2);
+function calculateNumber(num11, num22) {
+    const num1 = Math.round(num11);
+    const num2 = Math.round(num22);
 
     return num1 + num2;
 }
